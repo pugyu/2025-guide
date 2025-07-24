@@ -1,0 +1,207 @@
+#wrap{
+   
+  max-width: 1000px;
+margin: 0 auto;
+padding: 20px;
+box-sizing: border-box;
+  
+}
+
+
+body{ 
+  background: black;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+    
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+
+#header{
+  top: 0;
+  background-color: palevioletred;
+   height: 50px;
+  width:1000px;
+
+
+}
+
+  
+#header{
+  top: 0;
+  background-color: palevioletred;
+   height: 50px;
+  width:1000px;
+
+
+}
+
+#tagname {
+  padding: 20px;
+  height: 50px;
+  width: 200px;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Kiwi Maru', serif;
+  color: #ffffff;
+  position: relative;
+  font-size: 40px;
+  border: 3px solid #ee5dfc;
+  border-radius: 12px; /* おしゃれに角を丸く（任意） */
+}
+
+
+#erabu{
+  display: flex;
+ flex-direction: column;
+  align-items: center;        /* 横方向中央 */
+  justify-content: flex-start;
+  top: 0;
+  background-image:url(image/osusume2.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;     
+  height: 300px; 
+  width:600px;      
+  margin:40px 0px 40px 20px;
+
+}
+
+#zyunnbann{
+  display: flex;
+ flex-direction: column;
+ align-items: center;        /* 横方向中央 */
+ justify-content: flex-start;
+  top: 0;
+  background-image:url(image/osusume1.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px; 
+  width:600px;      
+  margin:40px 20px 40px  auto;
+
+}
+
+#liver{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* タイル間の隙間 */
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.meloko {
+background-image:url(image/meroko.JPG);/* 青：英語側 */
+background-size: cover;      /* or contain */
+background-position: center;
+background-repeat: no-repeat;
+  color: white;
+  width: calc(50% - 10px);  /* 2列、間のgapを引いた幅 */
+  height: 200px;            /* お好みで調整可能 */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.syu {
+background-image:url(image/shu.JPG);/* 青：英語側 */
+background-size: cover;      /* or contain */
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+width: calc(50% - 10px);  /* 2列、間のgapを引いた幅 */
+height: 200px;            /* お好みで調整可能 */
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+font-size: 18px;
+}
+
+.luka {
+background-image:url(image/luka.JPG);/* 青：英語側 */
+background-size: cover;      /* or contain */
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+width: calc(50% - 10px);  /* 2列、間のgapを引いた幅 */
+height: 200px;            /* お好みで調整可能 */
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+font-size: 18px;
+}
+
+.unnamed {
+background-image:url(image/unnamed.JPG);/* 青：英語側 */
+background-size: cover;      /* or contain */
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+width: calc(50% - 10px);  /* 2列、間のgapを引いた幅 */
+height: 200px;            /* お好みで調整可能 */
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+font-size: 18px;
+}
+
+
+#bottommenu{
+    
+  top: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+  min-height: 300px;    /* ← 最低限の高さを指定 */
+padding: 10px 0;  
+  border: 3px solid rgb(255, 255, 255); /* 白い線などで囲む */
+border-radius: 12px; 
+  display: flex;
+flex-direction: column;    /* 横方向中央 */
+align-items: center;
+ text-align: center;
+ font-family: 'Kiwi Maru', serif;
+ font-size: 20px;
+}
+
+#info-text {
+font-size: 20px;
+color: #ffffff;
+font-family: 'Kiwi Maru', serif;
+}
+
+/* 使用素材ラベルのスタイル */
+.note-label {
+font-size: 14px;
+color: #37b9f5be;
+font-weight: bold;
+font-size: 15px;
+}

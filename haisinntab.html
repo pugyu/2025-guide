@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="haisinntab.css">
+  <title>英語表現カテゴリ切り替え</title>
+  
+</head>
+<body>
+
+  <h1>配信表現カテゴリ切り替え（例：雑談用）</h1>
+
+  <!-- タブ（単語・スラング・フレーズ） -->
+  <div class="tabs">
+    <div class="tab active" data-tab="words">単語</div>
+    <div class="tab" data-tab="slang">スラング</div>
+    <div class="tab" data-tab="phrases">フレーズ</div>
+  </div>
+
+  <!-- 単語 -->
+  <div class="tab-content active" id="words">
+    <div class="grid-container">
+      <div class="card">
+        <div class="card-image">IMG</div>
+        topic
+      </div>
+      <div class="card">
+        <div class="card-image">IMG</div>
+        viewer
+      </div>
+      <div class="card">
+        <div class="card-image">IMG</div>
+        emoji
+      </div>
+      <div class="card">
+       <div class="card-image">IMG</div>
+          donate
+      </div>
+        
+  
+    </div>
+  </div>
+
+  <!-- スラング -->
+  <div class="tab-content" id="slang">
+    <div class="grid-container">
+      <div class="card">
+        <div class="card-image">IMG</div>
+        sus
+      </div>
+      <div class="card">
+        <div class="card-image">IMG</div>
+        pog
+      </div>
+      <div class="card">
+        <div class="card-image">IMG</div>
+        fr fr
+      </div>
+    </div>
+  </div>
+
+  <!-- フレーズ -->
+  <div class="tab-content" id="phrases">
+    <div class="grid-container">
+      <div class="card">
+        <div class="card-image">IMG</div>
+        No way!
+      </div>
+      <div class="card">
+        <div class="card-image">IMG</div>
+        That’s crazy!
+      </div>
+      <div class="card">
+        <div class="card-image">IMG</div>
+        You know what I mean?
+      </div>
+    </div>
+  </div>
+
+  <!-- タブ切り替えJS -->
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.tab;
+
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        contents.forEach(content => {
+          content.classList.toggle('active', content.id === target);
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

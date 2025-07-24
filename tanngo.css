@@ -1,0 +1,115 @@
+#wrap{
+   
+    max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+    
+}
+
+
+body{ 
+    background: black;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+      
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+
+  
+  #header{
+    padding: 5%; 
+    top: 0;
+    background-color: palevioletred;
+ 
+
+  }
+
+#top{
+    display: flex;
+   flex-direction: column;
+   align-items: center;        /* 横方向中央 */
+   justify-content: flex-start;
+    padding: 20% 20%;
+    top: 0;
+    background-color: rgb(112, 216, 181);
+    padding: 20px 0;             /* 上下だけ余白を設定 */
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 500px;       
+
+
+}
+
+.tagname{
+  background-color: rgb(216, 112, 121);
+  padding: 20px;
+  margin: 10px 0;
+  height: 70px;
+  width: 300px;                /* 横幅を指定することで中央揃えが明確に */
+  text-align: center;   
+
+}
+
+#main{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;      /* 縦方向に並べる */
+    align-items: center;  
+    padding: 30% 40%;
+    top: 0;
+    height:auto;
+    background-color: rgb(122, 112, 216);
+    padding: 0;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.tanngo1,
+.tanngo2,
+.tanngo3,
+.tanngo4,
+.tanngo5,
+.tanngo6,
+.tanngo7,
+.tanngo8,
+.tanngo9,
+.tanngo10 {
+     top: 0;
+     height:300px;
+     width: 900px;
+     background-color: rgb(112, 216, 147);
+     margin: 20px 0;
+
+}
+
+  #bottommenu{
+    
+    top: 0;
+    background-color: rgb(111, 144, 170);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    min-height: 300px;    /* ← 最低限の高さを指定 */
+  padding: 10px 0;   
+  }
+
+  

@@ -1,0 +1,96 @@
+
+ #menu {
+  list-style-type: none;
+  width: 900px;               /* 150px × 5個 = 750px */
+  margin: 0 auto;             /* 中央揃え（任意） */
+  padding: 0;
+  display: flex;              /* ← floatの代わりにflexで並べるのがおすすめ */
+  justify-content: space-between; /* すき間つきで横に5つ */
+  align-items: center;
+  height: 150px;
+}
+
+#menu li {
+  width: 150px;
+  height: 100px;
+  background: #ccc;           /* ← 背景色つけると確認しやすい */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kiwi Maru', serif;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+#menu li.zatu a{
+   font-size:130%; 
+  width: 150px;
+  height: 100px;;
+    background-image:url(image/menu_zatu.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+ display: block;
+ text-decoration:none;
+ text-indent:-999999px;
+ margin: 0 auto;
+ }
+
+ #menu li.game a{
+   font-size:130%; 
+  width: 150px;
+  height: 100px;;
+    background-image:url(image/menu_game.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+ display: block;
+ text-decoration:none;
+ text-indent:-999999px;;
+       margin: 0 auto;
+ }
+
+ #menu li.uta a{
+    font-size:130%; 
+  width: 150px;
+  height: 100px;
+   color: blueviolet;
+     background-image:url(image/menu_uta.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  text-decoration:none;
+  text-indent:-99999999px;;
+        margin: 0 auto;
+  }
+
+  #menu li.colabo a{
+    font-size:130%; 
+  width: 150px;
+  height: 100px;
+   color: blueviolet;
+       background-image:url(image/menu_kolabo.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  text-decoration:none;
+  text-indent:-99999999px;;
+        margin: 0 auto;
+  }
+  
+    #menu li.osusume a{
+    font-size:130%; 
+  width: 150px;
+  height: 100px;
+   color: blueviolet;
+      background-image:url(image/menu_like.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  text-decoration:none;
+  text-indent:-99999999px;;
+        margin: 0 auto;
+  }

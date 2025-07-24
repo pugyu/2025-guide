@@ -1,0 +1,119 @@
+  #mini_menu{
+      list-style-type: none;
+      width: 600px;
+      height: 100px;
+      margin: 0 auto;
+      padding: 0;
+      display: flex;
+      justify-content: center;     /* 横方向に中央揃え */
+      align-items: center; 
+      
+
+  }
+  
+ #mini_menu li {
+  width:100px;
+  height: 80px;
+  margin: 10px
+ }
+ 
+  #mini_menu li.home a{
+   font-size:130%; 
+   width:100px;
+  height: 50px;
+    background-image:url(image/menu_home.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+ display: block;
+ text-decoration:none;
+ text-indent:-9999999px;;
+ }
+ #mini_menu li.home a:hover{
+  background:rgb(51, 51, 51);
+ }
+ 
+
+ #mini_menu li.zatu a{
+   font-size:130%; 
+   width:100px;
+  height: 50px;
+    background-image:url(image/menu_zatu.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+ display: block;
+ text-decoration:none;
+ text-indent:-9999999px;;
+ }
+ #mini_menu li.zatu a:hover{
+  background:rgb(51, 51, 51);
+ }
+ 
+ 
+ #mini_menu li.game a{
+   font-size:130%; 
+   width:100px;
+   height: 50px;
+     background-image:url(image/menu_game.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+   display: block;
+   text-decoration:none;
+   text-indent:-999999px;;
+ }
+ #mini_menu li.game a:hover{
+  background:rgb(51, 51, 51);
+ }
+
+ #mini_menu li.uta a{
+    font-size:130%; 
+    width:100px;
+    height: 50px;
+    color: blueviolet;
+     background-image:url(image/menu_uta.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+    display: block;
+    text-decoration:none;
+    text-indent:-99999999px;;
+  }
+  #mini_menu li.uta a:hover{
+  background:rgb(51, 51, 51);
+  }
+
+  #mini_menu li.colabo a{
+    font-size:130%; 
+    width:100px;
+    height: 50px;
+    color: blueviolet;
+     background-image:url(image/menu_kolabo.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+    display: block;
+    text-decoration:none;
+    text-indent:-99999999px;;
+  }
+  #mini_menu li.colabo a:hover{
+  background:rgb(51, 51, 51);
+  }
+
+    #mini_menu li.osusume a{
+    font-size:130%; 
+    width:100px;
+    height: 50px;
+    color: blueviolet;
+      background-image:url(image/menu_like.JPG);/* 青：英語側 */
+  background-size: cover;      /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+    display: block;
+    text-decoration:none;
+    text-indent:-99999999px;;
+  }
+  #mini_menu li.osusume a:hover{
+  background:rgb(51, 51, 51);
+  }

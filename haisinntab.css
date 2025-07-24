@@ -1,0 +1,105 @@
+/* 基本リセットとレイアウト */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  padding: 5%;
+  font-family: sans-serif;
+  background-color: #963f3f;
+}
+
+/* タイトル見出し */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* タブメニュー */
+.tabs {
+  display: flex;
+  background-color: #333;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 各タブ */
+.tab {
+  flex: 1;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #444;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #555;
+}
+
+.tab.active {
+  background-color: #666;
+}
+
+/* タブの中身 */
+.tab-content {
+  display: none;
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* カード表示エリア */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* 単語・スラングなどのカード */
+.card {
+  background: #af3434;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* 画像代用ボックス */
+.card-image {
+  width: 100%;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+}

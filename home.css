@@ -1,0 +1,132 @@
+#wrap{
+   
+    max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+    
+}
+
+
+body{ 
+    background: black;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+      
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+
+  #header{
+    top: 0;
+    background-color: rgb(141, 107, 118);
+    height: 50px;
+    width:1000px;
+ 
+
+  }
+
+  #top{
+    height: 300px;
+    top: 0;
+    background-image:url(image/note.png);/* 青：英語側 */
+    background-size: cover;      /* or contain */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(255, 255, 255);
+      box-shadow:
+    0 0 20px #4526cc,
+    0 0 40px #7209b7; /* 白い線などで囲む */
+    border-radius: 12px; /* 任意：角を丸める */
+ 
+
+  }
+
+
+
+  #explain{
+    width: 1000px;
+    height:400px;
+    top: 0;
+    background-color: rgba(162, 162, 162, 0.411);
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow:
+  0 0 20px #4526cc,
+  0 0 40px #7209b7; /* 白い線などで囲む */
+  border-radius: 12px; /* 任意：角を丸める */
+    margin-top: 20px;
+    margin-bottom: 20px;
+   align-items: center;
+   text-align: center;
+   font-family: 'Kiwi Maru', serif;
+   font-size: 20px;
+   line-height :2; /* 文字幅　縦 */
+   letter-spacing: 2px; /* 文字幅　横 */
+   text-align: center;
+   display: flex;              /* ← これが重要！ */
+   justify-content: center;   /* 横方向中央 */
+   align-items: center;       /* 縦方向中央 */
+ 
+
+
+  }
+
+
+  #bottommenu {
+    top: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    padding: 10px 0;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 12px;
+  
+    display: flex;
+    justify-content: center;    /* 横方向中央 */
+    align-items: center;        /* 縦方向中央 */
+    flex-direction: column;
+  
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+  }
+  
+  #info-text {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Kiwi Maru', serif;
+}
+
+/* 使用素材ラベルのスタイル */
+.note-label {
+  font-size: 14px;
+  color: #37b9f5be;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#text-box {
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto; 
+}
+
